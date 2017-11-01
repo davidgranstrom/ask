@@ -6,7 +6,7 @@
   (:gen-class))
 
 (def api "https://en.wikipedia.org/w/api.php")
-(def default-opts {:timeout 1000 ; ms
+(def default-opts {:timeout 3000 ; ms
                    :query-params {:action "query"
                                   :prop "extracts"
                                   :format "json"
