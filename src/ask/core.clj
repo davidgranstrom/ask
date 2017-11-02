@@ -1,4 +1,4 @@
-(ns wikipedia-extracts.core
+(ns ask.core
   (:require [clojure.string :as s]
             [org.httpkit.client :as http]
             [clojure.data.json :as json]
@@ -14,7 +14,7 @@
                                   :explaintext true
                                   :exsectionformat "plain"
                                   :exlimit 1}
-                   :user-agent "User-agent Mozilla/5.0"})
+                   :user-agent "ask/0.1.0 clojure/httpkit/client"})
 
 (declare parse pretty-print)
 

@@ -1,6 +1,6 @@
-(ns wikipedia-extracts.core-test
+(ns ask.core-test
   (:require [clojure.test :refer :all]
-            [wikipedia-extracts.core :refer :all]))
+            [ask.core :refer :all]))
 
 (deftest a-test
   (testing "FIXME, I fail."

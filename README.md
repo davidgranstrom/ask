@@ -1,4 +1,4 @@
-# wikipedia-extracts
+# ask
 
 FIXME: description
 
@@ -10,7 +10,7 @@ Download from http://example.com/FIXME.
 
 FIXME: explanation
 
-    $ java -jar wikipedia-extracts-0.1.0-standalone.jar [args]
+    $ java -jar ask-0.1.0-standalone.jar [args]
 
 ## Options
 
