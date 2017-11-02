@@ -14,7 +14,7 @@
                                   :explaintext true
                                   :exsectionformat "plain"
                                   :exlimit 1}
-                   :user-agent "ask/0.1.0 clojure/httpkit/client"})
+                   :user-agent "ask/0.1.0 (https://github.com/davidgranstrom/ask) clojure/httpkit-client"})
 
 (declare parse pretty-print)
 
